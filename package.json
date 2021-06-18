@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./dist"
+  },
+  "author": "Huanyu Li",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.10"
+  },
+  "dependencies": {
+    "core-js": "^2.6.12",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
